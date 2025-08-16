@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> jasir| Portfolio</title>
+  <meta name="description" content="Product designer and web developer crafting responsive, accessible experiences using HTML, CSS, and JavaScript." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="port.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip </a>
+
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Primary">
+    <div class="container nav-flex">
+      <a class="logo" href="#home" aria-label="Home">jasir.o</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle theme"></button>
+    </div>
+  </nav>
+
+  <main id="main">
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="hero-content container">
+        <h1>Data scientist</h1>
+        <p class="hero-descriptions" id="hero-rotator" aria-live="polite">
+          If you have data, let’s look at data. If all we have are opinions, let’s go with mine.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+      <div class="container about-flex">
+        <img
+          src="profile.jpg"
+          width="250" 
+          height="250"
+          loading="lazy"
+          alt="Portrait of Your Name"
+          class="about-img"
+        />
+        <div>
+          <h2>About Me</h2>
+          <p>
+           i am a self-taught Data scientist based in india,kerala
+            With expertise in HTML, CSS, and JavaScript, I create digital experiences that delight users and drive results.
+          </p>
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>JavaScript (ES6)</li>
+            <li> CSS</li>
+            <li>c++</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section fade-in">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img
+              src="WhatsApp Image 2025-08-16 at 00.17.36_7b2527d9.jpg"
+              width="400"
+              height="250"
+              loading="lazy"
+              alt="SaaS landing page preview"
+            />
+            <div class="project-content">
+              <h3>calculator</h3>
+              <p> Built with c++ which is recommended for  readability and simplicity</p>
+             
+            </div>
+          </article>
+
+
+
+
+          <article class="project-card">
+            <img
+              src="container2.png"
+              width="400"
+              height="250"
+              loading="lazy"
+              alt="Personal blog platform preview"
+            />
+            <div class="project-content">
+              <h3>Clone Website</h3>
+              <p>cloned the EaseMyTrip homepage using HTML and CSS with a focus on layout and responsive design</p>
+             
+            </div>
+          </article>
+
+
+
+
+
+
+          <article class="project-card">
+            <img
+              src="637532962991175663.png"
+              width="400"
+              height="250"
+              loading="lazy"
+              alt="Admin dashboard preview"
+            />
+            <div class="project-content">
+              <h3>Trend Monitoring</h3>
+              <p>Served as a trend monitoring associate for NDTV News during the Lok Sabha election coverage.</p>
+              
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section fade-in">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm" autocomplete="on" novalidate>
+          <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required />
+          <input type="email" id="email" name="email" placeholder="Your Email" autocomplete="email" required />
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 jasir. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="port.js" defer></script>
+</body>
+</html>
